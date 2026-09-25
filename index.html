@@ -124,7 +124,7 @@
 
     /* ═══════════ ГРАФ-ПАНЕЛЬ (SVG координатная плоскость) ═══════════ */
     .graph-wrap { display: flex; justify-content: center; margin: 4px 0 2px; }
-    .graph-svg { width: 100%; max-width: 340px; height: auto; display: block; touch-action: none; }
+    .graph-svg { width: 100%; max-width: 340px; height: auto; display: block; touch-action: manipulation; } /* палец на графике листает страницу (было none — ученик не смог пролистать домашку, 25.09). Перетаскивания на графике нет: тянут ползунки */
     .graph-svg.sm { max-width: 100%; }
 
     /* ═══════════ ДВИЖОК ЖИВОГО ГРАФИКА ═══════════ */
